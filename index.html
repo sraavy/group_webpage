@@ -4,52 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Bio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-    <h1>Meet Our Team</h1>
-    <!-- Example team logo -->
-    <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
-
-    <!-- Navigation menu to switch between sections -->
+    <h1>Meet Our Team: <span class="team-name">TEAM SENIORS</span></h1>
+    <img src="img/Team.png" alt="Team Seniors Logo" class="team-logo">
     <nav>
         <button onclick="showSection('bios')">Team Bios</button>
         <button onclick="showSection('vision')">Team Vision</button>
     </nav>
 </header>
 
-<!-- Team bios section (default section) -->
+<!-- Team bios section -->
 <div id="bios" class="container">
-    <!-- Each card represents an individual team member -->
-    <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
+    <div class="card tanner-card">
+        <h2>Tanner Canterberry</h2>
+        <p>Scrum Master</p>
+        <img src="img/tanner-avatar.jpeg" alt="Tanner Avatar" class="avatar">
         <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+        <div id="bio1" class="bio">
+            <p>Tanner is an aspiring security engineer passionate about secure systems and tech history.</p>
+            <div class="moodboard">
+                <h3>💡 Moodboard</h3>
+                <div class="mood-images">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Enigma_%28crittografia%29_-_Museo_scienza_e_tecnologia_Milano.jpg" alt="Enigma Machine">
+                    <img src="https://static.wixstatic.com/media/8d7a62_af11148b4060447580f7ca14bac30d69~mv2.jpeg/v1/fill/w_552,h_901,al_c,q_85,enc_avif,quality_auto/8d7a62_af11148b4060447580f7ca14bac30d69~mv2.jpeg" alt="CS Artwork">
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="card">
-        <h2>Jane Smith</h2>
-        <p>Backend Developer</p>
+
+ <div class="card sraavya-card">
+        <h2>Sraavya Idumudi</h2>
+        <p>Product Owner</p>
+        <img src="img/sraavya-avatar.jpg" alt="Sraavya Avatar" class="avatar">
         <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
+        <div id="bio2" class="bio">
+            <p>[sraavya's short bio goes here]</p>
+            <div class="moodboard">
+                <h3>💡 Moodboard</h3>
+                <div class="mood-images">
+                    <img src="img/jane-img1.jpg" alt="Inspo 1">
+                    <img src="img/jane-img2.jpg" alt="Inspo 2">
+                    <img src="img/jane-img3.jpg" alt="Inspo 3">
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="card">
-        <h2>Emily Johnson</h2>
-        <p>UI/UX Designer</p>
+
+ <div class="card jonathan-card">
+        <h2>Jonathan Jewett</h2>
+        <p>Developer</p>
+        <img src="img/jonathan-avatar.jpg" alt="Jonathan Avatar" class="avatar">
         <button onclick="toggleBio('bio3')">Show Bio</button>
-        <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+        <div id="bio3" class="bio">
+            <p>[Jonathan's short bio goes here]</p>
+            <div class="moodboard">
+                <h3>💡 Moodboard</h3>
+                <div class="mood-images">
+                    <img src="img/jane-img1.jpg" alt="Inspo 1">
+                    <img src="img/jane-img2.jpg" alt="Inspo 2">
+                    <img src="img/jane-img3.jpg" alt="Inspo 3">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
-<!-- Team vision/mission statement section (hidden by default) -->
+<!-- Team vision/mission statement section -->
 <div id="vision" class="container" style="display: none;">
     <h2>Our Mission Statement</h2>
-    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+    <p>We are <strong>Team Seniors</strong>—a diverse and driven group of senior CS students who value curiosity, clean code, and community. Our mission is to empower each other through innovation, collaboration, and a love for all things tech.</p>
+
+    <h3>📜 Team Rules</h3>
+    <ul class="team-rules">
+        <li>Communicate consistently and clearly</li>
+        <li>Be accountable for deadlines</li>
+        <li>Have fun!</li>
+    </ul>
 </div>
 
-<script src="script.js"></script> <!-- Link to external JavaScript file -->
-
+<script src="script.js"></script>
 </body>
 </html>
