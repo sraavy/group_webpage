@@ -10,7 +10,7 @@ body {
 header {
   background-color: #004990;
   color: white;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 
 .bio-card {
@@ -22,16 +22,17 @@ header {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-.bio-card img {
-  width: 150px;
+.profile-pic {
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
+  object-fit: cover;
   margin-bottom: 1rem;
 }
 
 .moodboard img {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   margin-top: 1rem;
   border-radius: 12px;
 }
-
